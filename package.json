@@ -1,0 +1,25 @@
+{
+  "name": "front-end-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha ./test/*.spec.js",
+    "test:browser": "mocha ./test/*.int-spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "zombie": "^5.0.7",
+    "zombied-chai": "^1.0.69"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "lodash": "^4.17.4"
+  }
+}
